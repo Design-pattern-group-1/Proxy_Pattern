@@ -1,3 +1,5 @@
+package tom_proxy;
+
 public class Service implements ServiceInterface{
     @Override
     public void Operation() {
