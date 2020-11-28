@@ -1,4 +1,4 @@
-package com.WizardTower;
+package WizardTower;
 
 import java.util.logging.Logger;
 

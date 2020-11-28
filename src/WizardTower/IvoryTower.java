@@ -1,5 +1,5 @@
 
-package com.WizardTower;
+package WizardTower;
 import java.util.logging.Logger;
 
 public class IvoryTower implements WizardTower

@@ -1,3 +1,5 @@
+package tom_proxy;
+
 public class Client {
 
     private ServiceInterface serviceInterface;

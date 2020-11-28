@@ -1,4 +1,4 @@
-package com.WizardTower;
+package WizardTower;
 
 public class Wizard {
 

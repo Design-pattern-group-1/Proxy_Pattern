@@ -1,4 +1,4 @@
-package com.WizardTower;
+package WizardTower;
 
 public interface WizardTower {
     void enter(Wizard wizard);

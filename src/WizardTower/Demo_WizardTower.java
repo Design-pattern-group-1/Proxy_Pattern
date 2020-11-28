@@ -1,6 +1,6 @@
-package com.WizardTower;
+package WizardTower;
 
-public class Main {
+public class Demo_WizardTower {
 
     public static void main(String[] args) {
         WizardTowerProxy proxy = new WizardTowerProxy(new IvoryTower());
