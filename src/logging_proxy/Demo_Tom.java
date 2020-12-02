@@ -1,4 +1,4 @@
-package tom_proxy;
+package logging_proxy;
 
 public class Demo_Tom {
     public static void main(String[] args) {

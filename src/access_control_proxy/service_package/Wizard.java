@@ -1,4 +1,4 @@
-package WizardTower;
+package access_control_proxy.service_package;
 
 public class Wizard {
 

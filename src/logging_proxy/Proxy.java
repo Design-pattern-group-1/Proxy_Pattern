@@ -1,4 +1,4 @@
-package tom_proxy;
+package logging_proxy;
 
 public class Proxy implements ServiceInterface{
     private ServiceInterface serviceInterface;

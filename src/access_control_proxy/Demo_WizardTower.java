@@ -1,4 +1,9 @@
-package WizardTower;
+package access_control_proxy;
+
+import access_control_proxy.proxy.WizardTowerProxy;
+import access_control_proxy.service_package.IvoryTower;
+import access_control_proxy.service_package.Wizard;
+import access_control_proxy.service_package.WizardTower;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -7,7 +12,7 @@ import java.util.Collections;
 public class Demo_WizardTower {
 
     public static void main(String[] args) {
-        WizardTowerProxy proxy = new WizardTowerProxy(new IvoryTower());
+        WizardTower tower = new WizardTowerProxy(new IvoryTower());
 
         ArrayList<String> wizards = new ArrayList<String>(
                 Arrays.asList("Red wizard",
@@ -20,7 +25,7 @@ public class Demo_WizardTower {
 
         for (String wizardname: wizards)
         {
-         proxy.enter(new Wizard(wizardname));
+         tower.enter(new Wizard(wizardname));
         }
     }
 }
