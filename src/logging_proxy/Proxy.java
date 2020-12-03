@@ -24,7 +24,7 @@ public class Proxy implements ServiceInterface{
 
     public void reportStatus(String status){
         try{
-            FileWriter write = new FileWriter(path);
+            FileWriter write = new FileWriter(path,true);
             PrintWriter print_line = new PrintWriter(write);
             print_line.println(status);
             write.close();
